@@ -44,4 +44,6 @@ int main()
     {
         cout << "Вираз A:" << a.Fn_a(i, y, z, a.Fn_b(i, y, z)) << "\t" << "Вираз B:" << a.Fn_b(i, y, z)  << endl;
     }
+    system("pause");
+    return 0;
 }
